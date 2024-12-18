@@ -14,7 +14,7 @@ body {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px #fff;
+    box-shadow: 0 0px 5px #fff;
     width: 90%;
     max-width: 400px;
   }
@@ -35,6 +35,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    background-color: skyblue;
     transition: background-color 0.3s ease;
   }
   
@@ -47,13 +48,13 @@ body {
   }
   
   textarea {
-    width: 100%;
+    width: 98%;
     height: 80px;
     margin-bottom: 10px;
-    padding: 10px;
-    box-shadow: 0 0 2px gray ;
+    padding-left: 10px;
+    box-shadow: 0 0 5px gray ;
     border-radius: 5px;
-    resize: none;
+    border:nome;
   }
 
   placeholder {
@@ -71,6 +72,11 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+
+  img{
+    
+      height: "50px";
+  }
   
   .popup {
     position: fixed;
@@ -78,10 +84,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background: skyblue;
-    padding: 180px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    max-height: 300px;
   }
   
   .popup button {
@@ -97,3 +104,4 @@ body {
   .popup button:hover {
     background-color: orange;
   }
+  
