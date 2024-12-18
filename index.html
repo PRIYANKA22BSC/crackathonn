@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>feedback</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello!</h1>
+  <div class="container">
+    <h1>Feedback</h1>
+    <div class="buttons">
+      <button class="feedback-btn" onclick="showInput('Bad')">😞 Bad</button>
+      <button class="feedback-btn" onclick="showInput('Decent')">🙂 Decent</button>
+      <button class="feedback-btn" onclick="showInput('Love it')">🥰 Love It</button>
+    </div>
+
+    <div class="feedback-input" id="feedback-input" style="display: none;">
+      <p>You selected: <span id="feedback-type"></span></p>
+      <textarea id="feedback-text" placeholder="Tell me more..."></textarea>
+      <button class="submit-btn" onclick="submitFeedback()">Submit</button>
+    </div>
+
+    <div class="popup" id="popup" style="display: none;">
+      <p style="font-size: 30px;">Thank you for your feedback!</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>

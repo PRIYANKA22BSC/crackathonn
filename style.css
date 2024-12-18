@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #fff;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .feedback-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback-btn:hover {
+    background-color: #ddd;
+  }
+  
+  .feedback-input {
+    margin-top: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 2px gray ;
+    border-radius: 5px;
+    resize: none;
+  }
+
+  placeholder {
+    color: #555;
+    font-size: 12px;
+  }
+  
+  .submit-btn {
+    padding: 10px 180px;
+    font-size: 16px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: skyblue;
+    padding: 180px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .popup button {
+    margin-top: 10px;
+    padding: 10px 70px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: orange;
+  }
